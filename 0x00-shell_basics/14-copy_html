@@ -1,2 +1,2 @@
 #!/bin/bash
-find. -name '*.html'-exec cp /alx-system_engineering-devops
+find. -name '*.html' | xargs cp -t /alx-system_engineering-devops
