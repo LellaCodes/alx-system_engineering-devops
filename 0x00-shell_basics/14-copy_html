@@ -1,2 +1,2 @@
 #!/bin/bash
-cp  ./*.html -u  /alx-system_engineering-devops
+cp --update  ./*.html  /alx-system_engineering-devops
