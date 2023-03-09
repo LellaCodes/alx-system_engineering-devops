@@ -1,2 +1,2 @@
 #!/bin/bash
-cp `find -name \*.html` /alx-system_engineering-devops
+find . -name '*.html' -exec cp '{}' .. \;
